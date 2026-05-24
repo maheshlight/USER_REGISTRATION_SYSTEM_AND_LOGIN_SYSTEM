@@ -1,17 +1,93 @@
-Language
+# 🔐 User Registration & Login System
 
-Python 3.x — only programming language used
+A desktop and web-based User Registration and Login System built with Python.
 
+---
 
-Libraries & Frameworks
-LibraryPurposeTypetkinterDesktop GUI (original app)Built-in Pythonsqlite3Database to store usersBuilt-in PythonstreamlitWeb app frameworkThird-party (pip install)
+## 👥 Team Members
 
-Database
+- Ankit
+- Samir
+- Sushant
+- Mahesh
+- Pooja
 
-SQLite — lightweight local database, stores in a users.db file, no server needed
+---
 
+## 📌 About the Project
 
-Tools / Platform
+This project is a User Registration and Login System that allows users to sign up, log in, and view a welcome screen. It uses a local SQLite database to store user data. The project has two versions — a Desktop version using Tkinter and a Web version using Streamlit.
 
-GitHub — code hosting & version control
-Streamlit Cloud — free web deployment platform  
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python 3.x | Primary programming language |
+| Tkinter | Desktop GUI (original app) |
+| SQLite3 | Local database to store users |
+| Streamlit | Web app framework |
+| GitHub | Code hosting and version control |
+| Streamlit Cloud | Free web deployment platform |
+
+---
+
+## ✅ Features
+
+- User Registration (Signup)
+- User Login
+- SQLite Database for storing users
+- "I am not a robot" checkbox validation
+- Forgot password support message
+- Welcome screen after successful login
+- Logout functionality
+- Web version using Streamlit
+
+---
+
+## 📁 Project Structure
+
+```
+project/
+├── app.py            # Streamlit web version
+├── app_tkinter.py    # Original desktop version (Tkinter)
+├── requirements.txt  # Python dependencies
+└── README.md         # Project documentation
+```
+
+---
+
+## ▶️ How to Run
+
+### Desktop Version (Tkinter)
+```bash
+python app_tkinter.py
+```
+
+### Web Version (Streamlit)
+```bash
+pip install streamlit
+streamlit run app.py
+```
+
+---
+
+## 🔑 Default Login Credentials
+
+| Username | Password |
+|---|---|
+| admin | admin123 |
+| test | test123 |
+
+---
+
+## 🌐 Live Demo
+
+> Deploy on [Streamlit Cloud](https://share.streamlit.io) for free!
+
+---
+
+## 📄 License
+
+This project was made for educational purposes.
