@@ -1,16 +1,17 @@
-# User Registration and Login System
+Language
 
-A secure login and registration system with authentication.
+Python 3.x — only programming language used
 
-## Team
-- Team 1
 
-## Technologies Used
-- Python / Java / 
-- MySQL
-- HTML/CSS
+Libraries & Frameworks
+LibraryPurposeTypetkinterDesktop GUI (original app)Built-in Pythonsqlite3Database to store usersBuilt-in PythonstreamlitWeb app frameworkThird-party (pip install)
 
-## Features
-- User Registration
-- User Login
-- Secure Authentication
+Database
+
+SQLite — lightweight local database, stores in a users.db file, no server needed
+
+
+Tools / Platform
+
+GitHub — code hosting & version control
+Streamlit Cloud — free web deployment platform  
